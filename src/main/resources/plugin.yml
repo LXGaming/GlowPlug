@@ -1,0 +1,20 @@
+name: ${project.artifactId}
+main: io.github.lxgaming.glowplug.GlowPlug
+version: ${project.version}
+author: LX_Gaming
+website: http://www.lxgaming.github.io
+commands:
+  glowplug:
+    description: Display plugin information.
+    usage: /<command>
+  glow:
+    description: Glow like the stars!.
+    usage: /<command> <player>
+  glowall:
+    description: Glow like the stars!.
+    usage: /<command> <on/off>
+permissions:
+  GlowPlug.Glow:
+    description: Allows use of Glow command.
+  GlowPlug.GlowAll:
+    description: Allows use of GlowAll command.
